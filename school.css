@@ -71,3 +71,100 @@ a:hover{
 .life p{
     font-size: 40px;
 }
+
+.activities-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+#activities h2{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+#music h3{
+    font-size: 30px;
+}
+
+#writing h3{
+    font-size: 30px;
+}
+
+#dance h3{
+    font-size: 30px;
+}
+
+#students{
+    margin: 5%;
+}
+#students h2{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.future h3{
+    font-size: 50px;
+}
+
+.current h3{
+    font-size: 50px;
+}
+
+.aluminai h3{
+    font-size: 50px;
+}
+
+#contact{
+    margin: 10%;
+}
+#contact h3{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+#contact p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 35px;
+}
+
+#text tr{
+    background-color: blue;
+}
+
+#text th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#text td{
+    border: 1px;
+    padding: 8px;
+}
+
+#text tr:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
